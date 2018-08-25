@@ -1,0 +1,179 @@
+
+body {
+    background-image: url("assets/bckgrnd.png");
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 15px 10px 20px 10px;
+}
+
+.profile, .nav, .heading, figure, footer {
+    text-align: center;
+}
+
+.profile {
+    padding: 40px;
+}
+
+
+.profile img {
+    border-radius: 100px;
+    border: 3px solid #2c5fa8;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.summary {
+    padding: 20px;
+}
+
+.portfolio {
+    display: grid;
+    grid-column: span 1;
+    grid-row: span 1;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px repeat(3 1fr);
+    background-color: rgba(150, 150, 150, .6);  
+    color: #FFFFFF;
+}
+
+#see_my_work h1, #see_my_work img {
+    display: inline-block;
+    padding: 15px;
+}
+
+#see_my_work {
+    border-bottom: 3px solid white;
+}
+
+figure {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    border-top: 3px solid white;
+}
+
+
+@media only screen and (min-width: 600px) {
+body {
+    background-image: url("assets/bckgrnd.png");
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3 1fr);
+    grid-gap: 10px;
+}
+
+.nav {
+    grid-column: span 2;
+    grid-row: span 1;
+    text-align: left;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 15px 15px 0 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.summary {
+    color: #333333;
+}
+
+.summary, .nav, .portfolio {
+    padding: 50px;
+}
+
+.portfolio {
+    display: grid;
+    grid-column: span 2;
+    grid-row: span 1;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 1fr 10px;
+    background-color: rgba(150, 150, 150, .6);  
+    color: #FFFFFF;
+}
+
+#see_my_work {
+    grid-column: span 3;
+    border-bottom: 3px solid white;
+    margin-bottom: 20px;
+}
+
+.header {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.header h1, #header img {
+    display: inline-block;
+}
+
+.header h1 {
+    margin-right: 20px;
+}
+
+.profile img {
+    position: absolute;
+    right: 150px;
+    top: 600px;
+    border-radius: 100px;
+    border: 3px solid #2c5fa8;
+}
+
+figure {
+    text-align: center;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+footer {
+    border-top: 3px solid white;
+    padding: 15px;
+    grid-column: span 3;
+    grid-row: span 1;
+    text-align: center;
+}
+
+} 
