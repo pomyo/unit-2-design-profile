@@ -1,0 +1,16 @@
+
+DOM, also known as Document Object Model, is an object created by the browser to represent the html it's currently displaying. 
+
+It allows javascript to manipulate the html it represents in order to interact with it. Now what does this mean? 
+
+It means that in order for javascript to actually do anything in a website, the browser needs to build something that it can touch.
+
+Imagine creating a blueprint on a construction site. Everything is written on paper (HTML). 
+
+If a interior designer (javascript) comes along and decides that they wanted to change certain things like the color of the wall or 
+
+have the furniture be placed a certain way, it would be somewhat difficult for them to do. Now along comes a construction company or 
+
+a modeling company (browser). They would create a 3D model of the blueprint's specifications or outright build the property. 
+
+Now the designer can do it's work to interact with the infrastructure.
